@@ -1,0 +1,3426 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Homepage",
+      "clip": true,
+      "width": 1440,
+      "fill": "$white",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "uM0fr",
+          "name": "TopBar",
+          "width": "fill_container",
+          "fill": "$navy",
+          "padding": [
+            8,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "lF9aU",
+              "name": "tbLeft",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "KpQHA",
+                  "name": "tbPin",
+                  "width": 13,
+                  "height": 13,
+                  "iconFontName": "map-pin",
+                  "iconFontFamily": "lucide",
+                  "fill": "$gold"
+                },
+                {
+                  "type": "text",
+                  "id": "456J7",
+                  "name": "tbLoc",
+                  "fill": "$text-white-muted",
+                  "content": "Chiang Mai, Thailand",
+                  "fontFamily": "Inter",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dy4sI",
+              "name": "tbRight",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "339Cz",
+                  "name": "tbPh",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "AzYi9",
+                      "name": "tbPhIc",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "phone",
+                      "iconFontFamily": "lucide",
+                      "fill": "$gold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "keQMd",
+                      "name": "tbPhTx",
+                      "fill": "$text-white-muted",
+                      "content": "052-005-272",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BteWy",
+                  "name": "tbEm",
+                  "gap": 5,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "yIRyY",
+                      "name": "tbEmIc",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "mail",
+                      "iconFontFamily": "lucide",
+                      "fill": "$gold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zWOva",
+                      "name": "tbEmTx",
+                      "fill": "$text-white-muted",
+                      "content": "ctsthailand@yahoo.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BNy7P",
+          "name": "Nav",
+          "width": "fill_container",
+          "fill": "$white",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border"
+          },
+          "padding": [
+            14,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QP7HK",
+              "name": "logoArea",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qyUqr",
+                  "name": "logo",
+                  "width": 44,
+                  "height": 44,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "/Users/up/Projects/ctsnewdesign/resources/images/branding/CTS-Logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "KwaKq",
+                  "name": "logoText",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hx6kB",
+                      "name": "logoTh",
+                      "fill": "$navy",
+                      "content": "พระคริสตธรรมเชียงใหม่",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zqrhr",
+                      "name": "logoEn",
+                      "fill": "$text-muted",
+                      "content": "Chiang Mai Theological Seminary",
+                      "fontFamily": "Inter",
+                      "fontSize": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2Mlzh",
+              "name": "navLinks",
+              "gap": 2,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wPjJI",
+                  "name": "n1",
+                  "cornerRadius": 4,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ayW2p",
+                      "name": "n1t",
+                      "fill": "$gold",
+                      "content": "หน้าหลัก",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LwArO",
+                  "name": "n2",
+                  "cornerRadius": 4,
+                  "gap": 4,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2xvyE",
+                      "name": "n2t",
+                      "fill": "$text-dark",
+                      "content": "เกี่ยวกับเรา",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "cgB0p",
+                      "name": "n2i",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TMlIn",
+                  "name": "n3",
+                  "cornerRadius": 4,
+                  "gap": 4,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tQleB",
+                      "name": "n3t",
+                      "fill": "$text-dark",
+                      "content": "หลักสูตร",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "ObQy1",
+                      "name": "n3i",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nErRv",
+                  "name": "n4",
+                  "cornerRadius": 4,
+                  "gap": 4,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bv0zR",
+                      "name": "n4t",
+                      "fill": "$text-dark",
+                      "content": "สื่อการเรียนรู้",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "cUDSo",
+                      "name": "n4i",
+                      "width": 12,
+                      "height": 12,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-muted"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9lIDm",
+                  "name": "n5",
+                  "cornerRadius": 4,
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hkMuX",
+                      "name": "n5t",
+                      "fill": "$text-dark",
+                      "content": "ข่าวสาร",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dcCIy",
+                  "name": "ctaBtn",
+                  "fill": "$gold",
+                  "cornerRadius": 4,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lDPWp",
+                      "name": "ctaTxt",
+                      "fill": "$navy",
+                      "content": "สมัครเรียน",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eQOXU",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 640,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/PIC_0110.jpg",
+            "mode": "fill"
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "5VVpj",
+              "layoutPosition": "absolute",
+              "x": 0,
+              "y": 0,
+              "name": "heroOv",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#1B2A4ADD",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1B2A4A55",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 640
+            },
+            {
+              "type": "frame",
+              "id": "aGGpd",
+              "layoutPosition": "absolute",
+              "x": 80,
+              "y": 140,
+              "name": "heroContent",
+              "width": 680,
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k09re",
+                  "name": "heroLabel",
+                  "fill": "#C8A95130",
+                  "cornerRadius": 4,
+                  "padding": [
+                    6,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xazlT",
+                      "name": "heroLabelTx",
+                      "fill": "$gold",
+                      "content": "CHIANG MAI THEOLOGICAL SEMINARY",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "92lgl",
+                  "name": "heroTitle",
+                  "fill": "$text-white",
+                  "content": "สร้างผู้นำเพื่อ\nคริสตจักรของพระคริสต์",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Inter",
+                  "fontSize": 52,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "kpLHK",
+                  "name": "heroSub",
+                  "fill": "$text-white-muted",
+                  "content": "กว่า 50 ปีที่เราสร้างสาวก ศิษยาภิบาล และศาสนทูต\nเพื่อขยายพระกิตติคุณจนถึงสุดปลายแผ่นดินโลก",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "frame",
+                  "id": "ld1r0",
+                  "name": "heroBtns",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UE81b",
+                      "name": "hBtn1",
+                      "fill": "$gold",
+                      "cornerRadius": 4,
+                      "padding": [
+                        14,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "8Fyc9",
+                          "name": "hBtn1t",
+                          "fill": "$navy",
+                          "content": "สมัครเรียน",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JUMLt",
+                      "name": "hBtn2",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "thickness": 1.5,
+                        "fill": "$text-white-muted"
+                      },
+                      "padding": [
+                        13,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qH3Uz",
+                          "name": "hBtn2t",
+                          "fill": "$text-white",
+                          "content": "ดูหลักสูตร",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yn5cI",
+          "name": "Mission",
+          "width": "fill_container",
+          "fill": "$warm-bg",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Zy9Oy",
+              "name": "pLabel",
+              "fill": "$gold",
+              "content": "OUR MISSION",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "lK1Su",
+              "name": "pTitle",
+              "fill": "$navy",
+              "content": "สร้างชีวิตนักศึกษาทั้ง 3 ด้าน",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "800",
+              "letterSpacing": -1
+            },
+            {
+              "type": "frame",
+              "id": "IhMeW",
+              "name": "pRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gOBba",
+                  "name": "p1",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kucbj",
+                      "name": "p1n",
+                      "fill": "$gold-light",
+                      "content": "01",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mvqPJ",
+                      "name": "p1t",
+                      "fill": "$navy",
+                      "content": "สร้างสาวก",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q11qv",
+                      "name": "p1d",
+                      "fill": "$text-muted",
+                      "content": "สร้างสาวกแบบทวีคูณ\nตามแบบอย่างพระคริสต์",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sXrkS",
+                  "name": "p2",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6Soxi",
+                      "name": "p2n",
+                      "fill": "$gold-light",
+                      "content": "02",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V9s5C",
+                      "name": "p2t",
+                      "fill": "$navy",
+                      "content": "สร้างศิษยาภิบาล",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R65rV",
+                      "name": "p2d",
+                      "fill": "$text-muted",
+                      "content": "สร้างศิษยาภิบาลเพื่อขยาย\nคริสตจักรของพระคริสต์",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z9HJi",
+                  "name": "p3",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZAsi0",
+                      "name": "p3n",
+                      "fill": "$gold-light",
+                      "content": "03",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4p9Da",
+                      "name": "p3t",
+                      "fill": "$navy",
+                      "content": "สร้างศาสนทูต",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uzw9e",
+                      "name": "p3d",
+                      "fill": "$text-muted",
+                      "content": "สร้างศาสนทูตเพื่อสร้างสาวก\nจนถึงสุดปลายแผ่นดินโลก",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vdHxu",
+          "name": "About Founder",
+          "width": "fill_container",
+          "fill": "$white",
+          "gap": 60,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ohxZC",
+              "name": "aboutImg",
+              "width": 480,
+              "height": 560,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/IMG_8569.jpg",
+                "mode": "fill"
+              },
+              "cornerRadius": 12
+            },
+            {
+              "type": "frame",
+              "id": "gR1F6",
+              "name": "aboutRight",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QBc5J",
+                  "name": "aboutLabel",
+                  "fill": "$gold",
+                  "content": "OUR STORY",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "nJIeS",
+                  "name": "aboutTitle",
+                  "fill": "$navy",
+                  "content": "กว่า 50 ปี\nแห่งการรับใช้",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "800",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "frame",
+                  "id": "cfuFb",
+                  "name": "aboutQuote",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "xca6M",
+                      "name": "aboutQuoteLine",
+                      "fill": "$gold",
+                      "width": 3,
+                      "height": "fill_container"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QtdiC",
+                      "name": "aboutQuoteText",
+                      "fill": "$text-dark",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"ผู้นำที่ดีต้องรู้จักใช้พระคัมภีร์อย่างถูกต้อง ยอมให้พระวิญญาณบริสุทธิ์ทำงานในชีวิต และยอมให้ผู้นำคนอื่นมีส่วนเสริมสร้างชีวิต\"",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Cuc6U",
+                  "name": "aboutAuthor",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RUG2H",
+                      "name": "aboutAuthorImg",
+                      "width": 48,
+                      "height": 48,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/faculty/Henry-matb.jpg",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 24
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BymNP",
+                      "name": "aboutAuthorInfo",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ICjLH",
+                          "name": "aboutAuthorName",
+                          "fill": "$navy",
+                          "content": "ดร.เฮ็นรี่ แมทธิว ไบรเดนธอล",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pf7H5",
+                          "name": "aboutAuthorRole",
+                          "fill": "$text-muted",
+                          "content": "ผู้ก่อตั้ง · Founder, CTS Thailand",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ChKLC",
+                  "name": "aboutDesc",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "พระคริสตธรรมเชียงใหม่ ก่อตั้งขึ้นโดย ดร. เฮ็นรี่ ไบรเดนธอล ในปี ค.ศ. 2001 ปัจจุบันมีนักศึกษาทั้งเต็มเวลาและบางเวลา 150 ท่าน พร้อมหลักสูตรตั้งแต่ระดับประกาศนียบัตรจนถึงปริญญาเอก",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Uy5eo",
+          "name": "Programs",
+          "width": "fill_container",
+          "fill": "$navy",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "tALiH",
+              "name": "progsHeader",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DivyT",
+                  "name": "progsLeft",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "khu2H",
+                      "name": "progsLabel",
+                      "fill": "$gold",
+                      "content": "PROGRAMS",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "sX782",
+                      "name": "progsTitle",
+                      "fill": "$text-white",
+                      "content": "หลักสูตรที่เปิดสอน",
+                      "fontFamily": "Inter",
+                      "fontSize": 32,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "kz1Ab",
+                  "name": "progsAll",
+                  "fill": "$gold",
+                  "content": "ดูทั้งหมด →",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CtAea",
+              "name": "progsGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "cohsZ",
+                  "name": "pg1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF10",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LBvpl",
+                      "name": "pg1img",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/PIC_0092.jpg",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EfRuq",
+                      "name": "pg1info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ThBv7",
+                          "name": "pg1badge",
+                          "fill": "$gold",
+                          "content": "CERTIFICATE",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "T2lfp",
+                          "name": "pg1title",
+                          "fill": "$text-white",
+                          "content": "หลักสูตรผู้นำคริสตจักร",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Rowdb",
+                          "name": "pg1dur",
+                          "fill": "$text-white-muted",
+                          "content": "400 ชั่วโมง · ภาคค่ำ",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "YgO3k",
+                          "name": "pg1link",
+                          "fill": "$gold",
+                          "content": "ดูรายละเอียด →",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RNWm2",
+                  "name": "pg2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF10",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JliUr",
+                      "name": "pg2img",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/PIC_0144.jpg",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "77EEk",
+                      "name": "pg2info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0LDXM",
+                          "name": "pg2badge",
+                          "fill": "$gold",
+                          "content": "MASTER'S",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "UTusP",
+                          "name": "pg2title",
+                          "fill": "$text-white",
+                          "content": "M.Div. in Missions",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "7nogg",
+                          "name": "pg2dur",
+                          "fill": "$text-white-muted",
+                          "content": "3 ปี · 99 หน่วยกิต",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "UTJ1u",
+                          "name": "pg2link",
+                          "fill": "$gold",
+                          "content": "ดูรายละเอียด →",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "flNa4",
+                  "name": "pg3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF10",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OmFwz",
+                      "name": "pg3img",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/IMG_8499.jpg",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bXNMw",
+                      "name": "pg3info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kZVmU",
+                          "name": "pg3badge",
+                          "fill": "$gold",
+                          "content": "M.DIV.",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "VGfva",
+                          "name": "pg3title",
+                          "fill": "$text-white",
+                          "content": "M.Div. in Pastoral Theology",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xXjQF",
+                          "name": "pg3dur",
+                          "fill": "$text-white-muted",
+                          "content": "3 ปี · ศิษยาภิบาลศาสตร์",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "3jiu1",
+                          "name": "pg3link",
+                          "fill": "$gold",
+                          "content": "ดูรายละเอียด →",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1PVNu",
+                  "name": "pg4",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "#FFFFFF10",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EkWri",
+                      "name": "pg4img",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/misc/building-construction.jpg",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U54Ia",
+                      "name": "pg4info",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rkTcE",
+                          "name": "pg4badge",
+                          "fill": "$gold",
+                          "content": "DOCTORAL",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "TwhJF",
+                          "name": "pg4title",
+                          "fill": "$text-white",
+                          "content": "Doctor of Ministry (D.Min.)",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KVfZr",
+                          "name": "pg4dur",
+                          "fill": "$text-white-muted",
+                          "content": "3 ปี · ศาสนศาสตร์เอก",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "qQNSt",
+                          "name": "pg4link",
+                          "fill": "$gold",
+                          "content": "ดูรายละเอียด →",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7vEM8",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "./resources/images/misc/header-about.jpg",
+            "mode": "fill"
+          },
+          "gap": 40,
+          "padding": [
+            60,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "JStcq",
+              "layoutPosition": "absolute",
+              "x": -80,
+              "y": -60,
+              "name": "ctaOv",
+              "fill": "#1B2A4ACC",
+              "width": 1440,
+              "height": 200
+            },
+            {
+              "type": "frame",
+              "id": "aBJCB",
+              "name": "ctaLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fjJcs",
+                  "name": "ctaLabel",
+                  "fill": "$gold",
+                  "content": "เปิดรับสมัครนักศึกษา",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "Kaqi8",
+                  "name": "ctaTitle",
+                  "fill": "$text-white",
+                  "content": "เริ่มต้นการเดินทางในพันธกิจ",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "800",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "LL6hC",
+                  "name": "ctaDesc",
+                  "fill": "$text-white-muted",
+                  "content": "สมัครเรียนวันนี้และเตรียมพร้อมสำหรับชีวิตแห่งการรับใช้",
+                  "fontFamily": "Inter",
+                  "fontSize": 15
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Cvpua",
+              "name": "ctaRight",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FFnwD",
+                  "name": "ctaApply",
+                  "fill": "$gold",
+                  "cornerRadius": 4,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qtrll",
+                      "name": "ctaApplyT",
+                      "fill": "$navy",
+                      "content": "สมัครเรียน",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AVop9",
+                  "name": "ctaMore",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "$text-white-muted"
+                  },
+                  "padding": [
+                    13,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "R2Sj0",
+                      "name": "ctaMoreT",
+                      "fill": "$text-white",
+                      "content": "ดูหลักสูตร",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gBnlj",
+          "name": "Quick Links",
+          "width": "fill_container",
+          "fill": "$warm-bg",
+          "gap": 24,
+          "padding": [
+            48,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "xTVa2",
+              "name": "libCard",
+              "width": "fill_container",
+              "height": 160,
+              "fill": "$white",
+              "cornerRadius": 8,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "gap": 20,
+              "padding": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NZuhn",
+                  "name": "libImg",
+                  "width": 120,
+                  "height": 120,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "/Users/up/Projects/ctsnewdesign/resources/images/misc/library.jpeg",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "frame",
+                  "id": "cD6al",
+                  "name": "libInfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "7pcHK",
+                      "name": "libTitle",
+                      "fill": "$navy",
+                      "content": "ห้องสมุด",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pWyPj",
+                      "name": "libDesc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "เข้าถึงคลังหนังสือดิจิทัลและทรัพยากรสำหรับนักศึกษาและคณาจารย์",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "bivxU",
+                      "name": "libLink",
+                      "fill": "$gold",
+                      "content": "เข้าห้องสมุด →",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qitDk",
+              "name": "lineCard",
+              "width": "fill_container",
+              "height": 160,
+              "fill": "$white",
+              "cornerRadius": 8,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border"
+              },
+              "gap": 20,
+              "padding": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "1TkKr",
+                  "name": "lineImg",
+                  "width": 120,
+                  "height": 120,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "/Users/up/Projects/ctsnewdesign/resources/images/misc/LINE-QR-Code.jpg",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "frame",
+                  "id": "ImDxZ",
+                  "name": "lineInfo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8akf3",
+                      "name": "lineTitle",
+                      "fill": "$navy",
+                      "content": "LINE Official",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dkpKG",
+                      "name": "lineDesc",
+                      "fill": "$text-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "เพิ่มเพื่อน CTS Thailand บน LINE เพื่อรับข่าวสารและประกาศต่างๆ",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "s6Q7h",
+                      "name": "lineLink",
+                      "fill": "#06C755",
+                      "content": "เพิ่มเพื่อน →",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MmiQb",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$navy",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            48,
+            80,
+            24,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "IrJ1y",
+              "name": "fTop",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gaEAp",
+                  "name": "fCol1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HwGc9",
+                      "name": "fLogo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "1SbwX",
+                          "name": "fLogoImg",
+                          "width": 36,
+                          "height": 36,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/up/Projects/ctsnewdesign/resources/images/branding/CTS-Logo.png",
+                            "mode": "fit"
+                          },
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "text",
+                          "id": "VZbCz",
+                          "name": "fLogoTx",
+                          "fill": "$text-white",
+                          "content": "พระคริสตธรรมเชียงใหม่",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ow82s",
+                      "name": "fAddr",
+                      "fill": "$text-white-muted",
+                      "content": "132/74 หมู่ 7 ต.หนองควาย\nอ.หางดง จ.เชียงใหม่ 50230",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "ByOQr",
+                      "name": "fPhone",
+                      "fill": "$text-white-muted",
+                      "content": "052-005-272 / 090-9196304",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "wPsdQ",
+                      "name": "fEmail",
+                      "fill": "$gold",
+                      "content": "ctsthailand@yahoo.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IPlTn",
+                  "name": "fCol2",
+                  "width": 180,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DVmBg",
+                      "name": "fCol2T",
+                      "fill": "$gold",
+                      "content": "COURSES",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "ROjmw",
+                      "name": "fc2a",
+                      "fill": "$text-white-muted",
+                      "content": "Church Leadership",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "agH3W",
+                      "name": "fc2b",
+                      "fill": "$text-white-muted",
+                      "content": "Diploma Program",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "uWCCi",
+                      "name": "fc2c",
+                      "fill": "$text-white-muted",
+                      "content": "Master's Programs",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "mRg8h",
+                      "name": "fc2d",
+                      "fill": "$text-white-muted",
+                      "content": "Doctor of Ministry",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "52muk",
+                      "name": "fc2e",
+                      "fill": "$text-white-muted",
+                      "content": "Online Courses",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sl1wN",
+                  "name": "fCol3",
+                  "width": 200,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lUaAs",
+                      "name": "fCol3T",
+                      "fill": "$gold",
+                      "content": "CONTACT (EN)",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "O8uCy",
+                      "name": "fc3a",
+                      "fill": "$text-white-muted",
+                      "content": "Chiang Mai Theological Seminary",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "OwzCk",
+                      "name": "fc3b",
+                      "fill": "$text-white-muted",
+                      "content": "132/74 Moo 7 Nong Kwai\nHangdong, Chiang Mai 50230",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "rWumx",
+                      "name": "fc3c",
+                      "fill": "$text-white-muted",
+                      "content": "+66 52 00 5272",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UcNhQ",
+                  "name": "fCol4",
+                  "width": 180,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hSMT3",
+                      "name": "fCol4T",
+                      "fill": "$gold",
+                      "content": "联系 (CN)",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "cPrUr",
+                      "name": "fc4a",
+                      "fill": "$text-white-muted",
+                      "content": "清迈神学院",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "oobjk",
+                      "name": "fc4b",
+                      "fill": "$text-white-muted",
+                      "content": "+66 52 00 5272",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "cdNem",
+                      "name": "fc4c",
+                      "fill": "$text-white-muted",
+                      "content": "+66 90-9196304",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "N50Ih",
+                      "name": "fc4d",
+                      "fill": "$gold",
+                      "content": "ctsthailand@yahoo.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "0yz3r",
+              "name": "fDivider",
+              "fill": "#FFFFFF12",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "d9Qtb",
+              "name": "fBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L2lQw",
+                  "name": "fCopy",
+                  "fill": "$text-white-muted",
+                  "content": "© 2012–2026 Chiang Mai Theological Seminary. All Rights Reserved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11
+                },
+                {
+                  "type": "frame",
+                  "id": "G3Us0",
+                  "name": "fSocial",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "k2MAR",
+                      "name": "fFb",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "facebook",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-white-muted"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "c5hT8",
+                      "name": "fYt",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "youtube",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-white-muted"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bxXs6",
+      "x": 1640,
+      "y": 0,
+      "name": "Homepage V2 — Teal+Copper",
+      "clip": true,
+      "width": 1440,
+      "fill": "$ivory",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "BKhUd",
+          "name": "Nav",
+          "width": "fill_container",
+          "fill": "$teal",
+          "padding": [
+            16,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "D2s4V",
+              "name": "v2logo",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5iBid",
+                  "name": "v2logoImg",
+                  "width": 40,
+                  "height": 40,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "/Users/up/Projects/ctsnewdesign/resources/images/branding/CTS-Logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "zujbh",
+                  "name": "v2logoTx",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5cC7i",
+                      "name": "v2logoTh",
+                      "fill": "$on-dark",
+                      "content": "พระคริสตธรรมเชียงใหม่",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zg5hK",
+                      "name": "v2logoEn",
+                      "fill": "$on-dark-dim",
+                      "content": "Chiang Mai Theological Seminary",
+                      "fontFamily": "Inter",
+                      "fontSize": 10
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oZdq8",
+              "name": "v2links",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nGHBE",
+                  "name": "vn1",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xiytu",
+                      "name": "vn1t",
+                      "fill": "$copper",
+                      "content": "หน้าหลัก",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vp7wi",
+                  "name": "vn2",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xMHzw",
+                      "name": "vn2t",
+                      "fill": "$on-dark",
+                      "content": "เกี่ยวกับเรา",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UZMRj",
+                  "name": "vn3",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "neaLO",
+                      "name": "vn3t",
+                      "fill": "$on-dark",
+                      "content": "หลักสูตร",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kuFSs",
+                  "name": "vn4",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5ikYe",
+                      "name": "vn4t",
+                      "fill": "$on-dark",
+                      "content": "สื่อการเรียนรู้",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "528yf",
+                  "name": "vn5",
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jbkod",
+                      "name": "vn5t",
+                      "fill": "$on-dark",
+                      "content": "ข่าวสาร",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pF0SN",
+                  "name": "v2cta",
+                  "fill": "$copper",
+                  "cornerRadius": 6,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rlMtm",
+                      "name": "v2ctaTx",
+                      "fill": "$on-dark",
+                      "content": "สมัครเรียน",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dlKPx",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 600,
+          "fill": "$teal",
+          "padding": [
+            0,
+            0,
+            0,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "4TfaV",
+              "name": "heroLeft",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                0,
+                40,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8VkIq",
+                  "name": "heroBadge",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$copper"
+                  },
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3Hgbm",
+                      "name": "heroBadgeTx",
+                      "fill": "$copper",
+                      "content": "EST. 2001 · CHIANG MAI",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "9BJgF",
+                  "name": "heroH1",
+                  "fill": "$on-dark",
+                  "content": "สร้างผู้นำ\nเพื่อคริสตจักร\nของพระคริสต์",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Inter",
+                  "fontSize": 56,
+                  "fontWeight": "800",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "gE66M",
+                  "name": "heroP",
+                  "fill": "$on-dark-dim",
+                  "content": "กว่า 50 ปีที่เราสร้างสาวก ศิษยาภิบาล\nและศาสนทูตเพื่อขยายพระกิตติคุณ",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "frame",
+                  "id": "ok4f7",
+                  "name": "heroBtns2",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LGvi4",
+                      "name": "hb1",
+                      "fill": "$copper",
+                      "cornerRadius": 6,
+                      "padding": [
+                        16,
+                        36
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zx08r",
+                          "name": "hb1t",
+                          "fill": "$on-dark",
+                          "content": "สมัครเรียน",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "M3TT4",
+                      "name": "hb2",
+                      "cornerRadius": 6,
+                      "stroke": {
+                        "thickness": 1.5,
+                        "fill": "$on-dark-dim"
+                      },
+                      "padding": [
+                        15,
+                        36
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BdtaU",
+                          "name": "hb2t",
+                          "fill": "$on-dark",
+                          "content": "ดูหลักสูตร",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RUqHo",
+              "name": "heroImg",
+              "clip": true,
+              "width": 620,
+              "height": 600,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/PIC_0110.jpg",
+                "mode": "fill"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Vg0oA",
+          "name": "Mission",
+          "width": "fill_container",
+          "fill": "$cream",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "LKHgU",
+              "name": "mLabel",
+              "fill": "$copper",
+              "content": "OUR MISSION",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "700",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "zwsDH",
+              "name": "mTitle",
+              "fill": "$teal",
+              "content": "สร้างชีวิตนักศึกษาทั้ง 3 ด้าน",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "800",
+              "letterSpacing": -1
+            },
+            {
+              "type": "frame",
+              "id": "LtJcY",
+              "name": "mRow",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t0SiX",
+                  "name": "m1",
+                  "width": "fill_container",
+                  "fill": "$ivory",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QOaFH",
+                      "name": "m1ic",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#B8733315",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "2i6dw",
+                          "name": "m1icn",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "users",
+                          "iconFontFamily": "lucide",
+                          "fill": "$copper"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LYobM",
+                      "name": "m1t",
+                      "fill": "$teal",
+                      "content": "สร้างสาวก",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7lEU5",
+                      "name": "m1d",
+                      "fill": "$muted",
+                      "content": "สร้างสาวกแบบทวีคูณ\nตามแบบอย่างพระคริสต์",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ihp5R",
+                  "name": "m2",
+                  "width": "fill_container",
+                  "fill": "$ivory",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dy8ap",
+                      "name": "m2ic",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#B8733315",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "XH1sZ",
+                          "name": "m2icn",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "book-open",
+                          "iconFontFamily": "lucide",
+                          "fill": "$copper"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "FP5CN",
+                      "name": "m2t",
+                      "fill": "$teal",
+                      "content": "สร้างศิษยาภิบาล",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hbji2",
+                      "name": "m2d",
+                      "fill": "$muted",
+                      "content": "สร้างศิษยาภิบาลเพื่อขยาย\nคริสตจักรของพระคริสต์",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qTn1Y",
+                  "name": "m3",
+                  "width": "fill_container",
+                  "fill": "$ivory",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z2Ahe",
+                      "name": "m3ic",
+                      "width": 56,
+                      "height": 56,
+                      "fill": "#B8733315",
+                      "cornerRadius": 28,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "4bVBh",
+                          "name": "m3icn",
+                          "width": 24,
+                          "height": 24,
+                          "iconFontName": "globe",
+                          "iconFontFamily": "lucide",
+                          "fill": "$copper"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "W6STu",
+                      "name": "m3t",
+                      "fill": "$teal",
+                      "content": "สร้างศาสนทูต",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0TVn2",
+                      "name": "m3d",
+                      "fill": "$muted",
+                      "content": "สร้างศาสนทูตเพื่อสร้างสาวก\nจนถึงสุดปลายแผ่นดินโลก",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aVAAl",
+          "name": "Quote",
+          "width": "fill_container",
+          "fill": "$teal",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            64,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "T4anc",
+              "name": "qMark",
+              "fill": "$copper",
+              "content": "“",
+              "lineHeight": 0.5,
+              "fontFamily": "Inter",
+              "fontSize": 72,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "rYTGs",
+              "name": "qText",
+              "fill": "$on-dark",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "ผู้นำที่ดีต้องรู้จักใช้พระคัมภีร์อย่างถูกต้อง ยอมให้พระวิญญาณบริสุทธิ์ทำงานในชีวิต และยอมให้ผู้นำคนอื่นมีส่วนเสริมสร้างชีวิต",
+              "lineHeight": 1.7,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontStyle": "italic"
+            },
+            {
+              "type": "frame",
+              "id": "ehibt",
+              "name": "qAuthor",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZVnPT",
+                  "name": "qAvatar",
+                  "width": 52,
+                  "height": 52,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "/Users/up/Projects/ctsnewdesign/resources/images/faculty/Henry-matb.jpg",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 26
+                },
+                {
+                  "type": "frame",
+                  "id": "f7NER",
+                  "name": "qInfo",
+                  "layout": "vertical",
+                  "gap": 3,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ohcn1",
+                      "name": "qName",
+                      "fill": "$on-dark",
+                      "content": "ดร.เฮ็นรี่ แมทธิว ไบรเดนธอล",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1eX4c",
+                      "name": "qRole",
+                      "fill": "$on-dark-dim",
+                      "content": "ผู้ก่อตั้ง · Founder",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "whpUb",
+          "name": "Programs",
+          "width": "fill_container",
+          "fill": "$ivory",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "JmSkQ",
+              "name": "pHead",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oBuu1",
+                  "name": "pLeft",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rSvQ5",
+                      "name": "pLbl",
+                      "fill": "$copper",
+                      "content": "PROGRAMS",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "Iw0wH",
+                      "name": "pTtl",
+                      "fill": "$teal",
+                      "content": "หลักสูตรที่เปิดสอน",
+                      "fontFamily": "Inter",
+                      "fontSize": 32,
+                      "fontWeight": "800",
+                      "letterSpacing": -1
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tvFhI",
+                  "name": "pAll",
+                  "fill": "$copper",
+                  "content": "ดูทั้งหมด →",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bkEqV",
+              "name": "pGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vhISO",
+                  "name": "pc1",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$ivory",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oa7Ht",
+                      "name": "pc1i",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/PIC_0092.jpg",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BTm3k",
+                      "name": "pc1f",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "grwvt",
+                          "name": "pc1b",
+                          "fill": "$copper",
+                          "content": "CERTIFICATE",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "zFhaw",
+                          "name": "pc1t",
+                          "fill": "$teal",
+                          "content": "หลักสูตรผู้นำคริสตจักร",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "awgcX",
+                          "name": "pc1d",
+                          "fill": "$muted",
+                          "content": "400 ชั่วโมง · ภาคค่ำ",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "F6yi7",
+                          "name": "pc1l",
+                          "fill": "$copper",
+                          "content": "ดูรายละเอียด →",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tBduR",
+                  "name": "pc2",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$ivory",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tdiUR",
+                      "name": "pc2i",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/PIC_0144.jpg",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W7u1C",
+                      "name": "pc2f",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TrOpH",
+                          "name": "pc2b",
+                          "fill": "$copper",
+                          "content": "MASTER'S",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "gEv1e",
+                          "name": "pc2t",
+                          "fill": "$teal",
+                          "content": "M.Div. in Missions",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W3uRO",
+                          "name": "pc2d",
+                          "fill": "$muted",
+                          "content": "3 ปี · 99 หน่วยกิต",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "tkD5f",
+                          "name": "pc2l",
+                          "fill": "$copper",
+                          "content": "ดูรายละเอียด →",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LAG1x",
+                  "name": "pc3",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$ivory",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$line"
+                  },
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6eose",
+                      "name": "pc3i",
+                      "width": "fill_container",
+                      "height": 180,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "/Users/up/Projects/ctsnewdesign/resources/images/hero/IMG_8499.jpg",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FbEOz",
+                      "name": "pc3f",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nyHhu",
+                          "name": "pc3b",
+                          "fill": "$copper",
+                          "content": "M.DIV.",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.5
+                        },
+                        {
+                          "type": "text",
+                          "id": "GbdFl",
+                          "name": "pc3t",
+                          "fill": "$teal",
+                          "content": "M.Div. in Pastoral Theology",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eF3kg",
+                          "name": "pc3d",
+                          "fill": "$muted",
+                          "content": "3 ปี · ศิษยาภิบาลศาสตร์",
+                          "fontFamily": "Inter",
+                          "fontSize": 12
+                        },
+                        {
+                          "type": "text",
+                          "id": "fd8fc",
+                          "name": "pc3l",
+                          "fill": "$copper",
+                          "content": "ดูรายละเอียด →",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nKmXC",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "$teal",
+          "gap": 40,
+          "padding": [
+            60,
+            80
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Dyo5a",
+              "name": "ctaL",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lzTSi",
+                  "name": "ctaLbl",
+                  "fill": "$copper",
+                  "content": "เปิดรับสมัครนักศึกษา",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "gaxJa",
+                  "name": "ctaTtl",
+                  "fill": "$on-dark",
+                  "content": "เริ่มต้นการเดินทางในพันธกิจ",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "800",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "5nA62",
+                  "name": "ctaDsc",
+                  "fill": "$on-dark-dim",
+                  "content": "สมัครเรียนวันนี้และเตรียมพร้อมสำหรับชีวิตแห่งการรับใช้",
+                  "fontFamily": "Inter",
+                  "fontSize": 15
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UHmMA",
+              "name": "ctaR",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9PTMI",
+                  "name": "ctaB1",
+                  "fill": "$copper",
+                  "cornerRadius": 6,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ez0MR",
+                      "name": "ctaB1t",
+                      "fill": "$on-dark",
+                      "content": "สมัครเรียน",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q6tCV",
+                  "name": "ctaB2",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "$on-dark-dim"
+                  },
+                  "padding": [
+                    13,
+                    28
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "myZ0M",
+                      "name": "ctaB2t",
+                      "fill": "$on-dark",
+                      "content": "ติดต่อเรา",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hboZa",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$dark",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            48,
+            80,
+            24,
+            80
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "IscmO",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "2NBvW",
+                  "name": "ftC1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "8cEwC",
+                      "name": "ftLogo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "8XMe8",
+                          "name": "ftLogoI",
+                          "width": 32,
+                          "height": 32,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "/Users/up/Projects/ctsnewdesign/resources/images/branding/CTS-Logo.png",
+                            "mode": "fit"
+                          },
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "text",
+                          "id": "xJqf2",
+                          "name": "ftLogoT",
+                          "fill": "$on-dark",
+                          "content": "พระคริสตธรรมเชียงใหม่",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "jdFDd",
+                      "name": "ftAddr",
+                      "fill": "$on-dark-dim",
+                      "content": "132/74 หมู่ 7 ต.หนองควาย\nอ.หางดง จ.เชียงใหม่ 50230",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "3gwZd",
+                      "name": "ftPh",
+                      "fill": "$on-dark-dim",
+                      "content": "052-005-272 / 090-9196304",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "J10er",
+                      "name": "ftEm",
+                      "fill": "$copper",
+                      "content": "ctsthailand@yahoo.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hNoRe",
+                  "name": "ftC2",
+                  "width": 180,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2KCEy",
+                      "name": "ftC2t",
+                      "fill": "$copper",
+                      "content": "COURSES",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "tux2o",
+                      "name": "ftC2a",
+                      "fill": "$on-dark-dim",
+                      "content": "Church Leadership",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hziTo",
+                      "name": "ftC2b",
+                      "fill": "$on-dark-dim",
+                      "content": "Master's Programs",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "UWDUy",
+                      "name": "ftC2c",
+                      "fill": "$on-dark-dim",
+                      "content": "Doctor of Ministry",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "anwA9",
+                      "name": "ftC2d",
+                      "fill": "$on-dark-dim",
+                      "content": "Online Courses",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pA2Q2",
+                  "name": "ftC3",
+                  "width": 200,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k5kAS",
+                      "name": "ftC3t",
+                      "fill": "$copper",
+                      "content": "CONTACT (EN)",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "AQjvV",
+                      "name": "ftC3a",
+                      "fill": "$on-dark-dim",
+                      "content": "Chiang Mai Theological Seminary",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KwMCV",
+                      "name": "ftC3b",
+                      "fill": "$on-dark-dim",
+                      "content": "132/74 Moo 7 Nong Kwai\nHangdong, Chiang Mai 50230",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "6isNn",
+                      "name": "ftC3c",
+                      "fill": "$on-dark-dim",
+                      "content": "+66 52 00 5272",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9OjJC",
+                  "name": "ftC4",
+                  "width": 160,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DDzXd",
+                      "name": "ftC4t",
+                      "fill": "$copper",
+                      "content": "联系",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "v6up0",
+                      "name": "ftC4a",
+                      "fill": "$on-dark-dim",
+                      "content": "清迈神学院",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GAvjz",
+                      "name": "ftC4b",
+                      "fill": "$on-dark-dim",
+                      "content": "+66 52 00 5272",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pjo8Q",
+                      "name": "ftC4c",
+                      "fill": "$copper",
+                      "content": "ctsthailand@yahoo.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "OuQfA",
+              "name": "ftDiv",
+              "fill": "#FFFFFF10",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "TmYoj",
+              "name": "ftBot",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yAcpk",
+                  "name": "ftCopy",
+                  "fill": "$on-dark-dim",
+                  "content": "© 2012–2026 Chiang Mai Theological Seminary. All Rights Reserved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11
+                },
+                {
+                  "type": "frame",
+                  "id": "eri70",
+                  "name": "ftSoc",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "7zd9U",
+                      "name": "ftFb",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "facebook",
+                      "iconFontFamily": "lucide",
+                      "fill": "$on-dark-dim"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "dJAXf",
+                      "name": "ftYt",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "youtube",
+                      "iconFontFamily": "lucide",
+                      "fill": "$on-dark-dim"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "border": {
+      "type": "color",
+      "value": "#E0DCD4"
+    },
+    "gold": {
+      "type": "color",
+      "value": "#C8A951"
+    },
+    "gold-light": {
+      "type": "color",
+      "value": "#E8D9A0"
+    },
+    "light-bg": {
+      "type": "color",
+      "value": "#F0EDE5"
+    },
+    "navy": {
+      "type": "color",
+      "value": "#1B2A4A"
+    },
+    "navy-light": {
+      "type": "color",
+      "value": "#2C4A7C"
+    },
+    "text-dark": {
+      "type": "color",
+      "value": "#1A1A2E"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": "#5A5A6E"
+    },
+    "text-white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-white-muted": {
+      "type": "color",
+      "value": "#B8C4D8"
+    },
+    "warm-bg": {
+      "type": "color",
+      "value": "#F8F6F0"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "copper": {
+      "type": "color",
+      "value": "#B87333"
+    },
+    "copper-light": {
+      "type": "color",
+      "value": "#D4A574"
+    },
+    "cream": {
+      "type": "color",
+      "value": "#F2EDE4"
+    },
+    "dark": {
+      "type": "color",
+      "value": "#151515"
+    },
+    "ivory": {
+      "type": "color",
+      "value": "#FAF8F4"
+    },
+    "line": {
+      "type": "color",
+      "value": "#D8D2C8"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#6B6B6B"
+    },
+    "on-dark": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "on-dark-dim": {
+      "type": "color",
+      "value": "#A8B8B8"
+    },
+    "teal": {
+      "type": "color",
+      "value": "#1A3A3A"
+    },
+    "teal-light": {
+      "type": "color",
+      "value": "#2A5555"
+    }
+  }
+}
